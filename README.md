@@ -1,5 +1,5 @@
 # API CRUD de Produtos
-Projeto desenvolvido durante um dos módulos do bootcamp da empresa Atos.<br>
+Projeto desenvolvido durante um dos módulos do bootcamp da empresa <strong>Atos</strong>.<br>
 
 
 ## Ferramentas
@@ -10,6 +10,3 @@ Projeto desenvolvido durante um dos módulos do bootcamp da empresa Atos.<br>
   <li>Swagger (para documentar a API)</li>
   <li>Postman (https://www.postman.com/) para testar os endpoints da API)</li>
 </li>
-
-## Instalação
-
