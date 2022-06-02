@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "1f8a3282-c447-4a31-b51f-5b765eb8a770",
+		"name": "Atos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LIsta Todos os Produtos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/produtos/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Produto Por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/produtos/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca Produto Por ID Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/produtos/delete/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						"delete",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cria Produto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"codigo\": \"ELE0002\",\n    \"nome\": \"Video Game\",\n    \"preco\": 3200.0,\n    \"quantidade\": 8,\n    \"categoria\": \"ELETRONICO\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/produtos/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Altera Dados do Produto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"codigo\": \"ELE00023444\",\n    \"nome\": \"Video Game\",\n    \"preco\": 3200.0,\n    \"quantidade\": 8,\n    \"categoria\": \"ELETRONICO\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/produtos/update/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"produtos",
+						"update",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
