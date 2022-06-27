@@ -1,5 +1,5 @@
-# API CRUD de Produtos
-Projeto desenvolvido durante um dos módulos do bootcamp da empresa <strong>Atos</strong>.<br>
+# Projeto 01
+Este projeto tem por objetivo revisar e avaliar os conhecimentos absorvidos até o momento atual do curso de Java Web e também servir como motivação para o projeto final do curso. <strong>Atos</strong>.<br>
 
 
 ## Ferramentas
