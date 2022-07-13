@@ -76,7 +76,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n    \"codigo\": \"ELE0002\",\n    \"nome\": \"Video Game\",\n    \"preco\": 3200.0,\n    \"quantidade\": 8,\n    \"categoria\": \"ELETRONICO\"\n}",
+					"raw": "{\n\n    \"codigo\": \"FLO00045\",\n    \"nome\": \"Rosa cor-de-rosa\",\n    \"preco\": 5.0,\n    \"quantidade\": 50,\n    \"categoria\": \"Rosas Chinensis\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -106,7 +106,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n    \"codigo\": \"ELE00023444\",\n    \"nome\": \"Video Game\",\n    \"preco\": 3200.0,\n    \"quantidade\": 8,\n    \"categoria\": \"ELETRONICO\"\n}",
+					"raw": "{\n    \"codigo\": \"FLO0004\",\n    \"nome\": \"Rosa cor-de-rosa\",\n    \"preco\": 5.0,\n    \"quantidade\": 50,\n    \"categoria\": \"Rosas Chinensis\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
