@@ -1,5 +1,5 @@
-# Projeto API CRUD de Produtos
-Este projeto tem por objetivo revisar e avaliar os conhecimentos absorvidos até o momento atual do curso de Java Web e também servir como motivação para o projeto final do curso. <strong>Atos</strong>.<br>
+# Floricultura Gardens
+A Floricultura 'Gardens' é o projeto final que tem por objetivo revisar e aplicar os conhecimentos absorvidos na Academia Java Web.<strong>Atos</strong>.<br>
 
 
 ## Ferramentas utilizadas
